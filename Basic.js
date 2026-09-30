@@ -92,31 +92,39 @@
 // target = 30
 // index = 2
 
-let arr=[10,20,60,30,40,50]
-let target= 60;
-let index=[]
+// let arr=[10,20,60,30,40,50]
+// let target= 60;
+// let index=[]
 
 
-for(let i=0;i<arr.length;i++){
-    if(arr[i]===target){
-        index.push(i)
+// for(let i=0;i<arr.length;i++){
+//     if(arr[i]===target){
+//         index.push(i)
         
-    }
+//     }
   
   
-}
-if(index.length > 0){
-    console.log("index of target element:",index)
-} else {
-    console.log("Element does not exists")
-}
+// }
+// if(index.length > 0){
+//     console.log("index of target element:",index)
+// } else {
+//     console.log("Element does not exists")
+// }
 
 
 // Find frequency of an element
 // [1,2,2,3,2,4]
 // target = 2
 // frequency = 3
-
+// let arr=[1,2,2,3,2,4,3,2]
+// let target=2;
+// let count=0;
+// for(let i=0;i<arr.length;i++){
+//     if(arr[i]==target){
+//         count++
+//     }
+// }
+// console.log(count)
 
 
 // Find second largest element
@@ -134,3 +142,18 @@ if(index.length > 0){
 
 // [1,2,2,3,3,4]
 // // [1,2,3,4]
+
+// let arr=[1,2,2,3,3,4]
+// let set= new Map()
+// let arr1= arr.map()
+// console.log(arr1)
+function duplicate(arr){
+for(let i=0;i<arr.length;i++){
+    if(arr.includes(arr[i])){
+        return arr
+    }
+}
+
+}
+console.log(duplicate([1,2,2,3,3,4]))
+
